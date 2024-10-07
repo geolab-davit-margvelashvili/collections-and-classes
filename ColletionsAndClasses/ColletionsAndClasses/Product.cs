@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ColletionsAndClasses
 {
-    internal class Product : IProduct
+    internal class Product 
     {
         public string Name { get; set; }
         private decimal price;
